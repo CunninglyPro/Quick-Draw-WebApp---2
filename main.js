@@ -39,7 +39,7 @@ function check_sketch() {
     timer_counter++;
     document.getElementById("timer").innerHTML = timer_counter;
     console.log(timer_counter);
-    if (timer_counter > 400) {
+    if (timer_counter > 600) {
         timer_counter = 0;
         timer_check = "completed";
     }
