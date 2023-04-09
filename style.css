@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, lightblue, lime);
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    color: blue;
+    font-weight: 800;
+}
+
+button {
+    float: right;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details {
+    padding: 10px;
+}
+
+#score-tag {
+    float: left;
+}
+
+#timer-tag {
+    float: right;
+    margin-right: 30px;
+
+}
+
+#score-tag, #timer-tag {
+    font-size: 30px;
+}
+
+#sketch-name {
+    color: black;
+}
+
+canvas {
+    border-radius: 10px;
+    margin-top: 190px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from {
+        box-shadow: 2px 2px 40px white;
+    }
+    to {
+        box-shadow: 2px 2px 40px blue;
+    }
+}
